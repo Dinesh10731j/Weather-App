@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Playfair:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Playfair', serif;
+}
+
+main{
+    height: 100vh;
+    width: 100%;
+    background-color: #3498db;
+
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+
+main .container{
+    min-height:500px ;
+    width:300px;
+    background:#2c3e50;
+    border-radius:9px;
+    padding: 10px;
+   
+}
+
+.container{
+    display: grid;
+    grid-template-rows:100px 100px  auto ;
+    gap:20px
+   
+}
+
+.elem{
+    background-color:white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.inputElement input{
+    padding: 10px;
+    margin:20px 10px 10px 32px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    box-shadow: -2px -3px 10px #4b4b4b;
+}
+
+#weatherImage img{
+    padding: 10px;
+    margin:0px 10px 10px 85px;
+    border-radius: 5px;
+    height:100px;
+    width: 100px;
+
+
+}
+
+#temperature h2{
+    text-align:center;
+}
+
+#wind_humidity{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+section.wind{
+    background: white;
+    height: 100px;
+    width:100px;
+    border-radius:5px;
+    
+}
+section.wind h2 {
+    text-align: center;
+    
+}
+section.humidity h2 {
+    text-align: center;
+    
+}
+
+section.wind i{
+padding: 10px;
+    height:100px;
+    width:100px;
+    margin:10px 20px 10px 30px
+  
+    
+}
+
+section.humidity{
+    background-color: white;
+    height: 100px;
+    width:100px;
+    border-radius: 5px;
+}
+
+section.humidity i{
+    padding: 10px;
+    height:100px;
+    width:100px;
+    margin:10px 20px 10px 30px
+
+}
