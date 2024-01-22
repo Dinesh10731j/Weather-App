@@ -9,7 +9,7 @@ const datas = (temp,wind,humidity)=>{
     
     temperature.innerHTML = ` Temperature:${temp} °C`;
     windSpeed.innerHTML = `${wind} km/hr `;
-    humidityData.innerHTML = `${humidity} g.m-3`
+    humidityData.innerHTML = `${humidity}%`
 
 
 
